@@ -3,9 +3,6 @@ Introduction
 ------------
 The Robot Framework GCP Storage Library is a library which provides common functionality for testing Google Cloud Storage file storage on Google Cloud Platform infrastructure.
 
-* More information about this library can be found in the
-  [Keyword Documentation](https://repo1.maven.org/maven2/com/github/marketsquare/robotframework-dblibrary/3.2.0/robotframework-dblibrary-3.2.0.html).
-
 Usage
 -----
 If you are using the [robotframework-maven-plugin](http://robotframework.org/MavenPlugin/) you can
