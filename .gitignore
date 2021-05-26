@@ -1,0 +1,8 @@
+# IDEs
+.vscode
+.project
+.classpath
+.settings
+
+# App
+target
