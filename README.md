@@ -24,10 +24,14 @@ Library import in Robot tests can be done with:
 |                    |                                 |
 | ----------------   | ------------------------------- |
 | *** Settings ***   |                                 |
-| Library            | GCPStorageLibrary                 |
+| Library            | GCPStorageLibrary               |
 
 Please note that to use the GCP Storage Library you need to set an environment variable where your code runs. Provide authentication credentials to your application code by setting the environment variable GOOGLE_APPLICATION_CREDENTIALS. This variable only applies to your current shell session, so if you open a new session, set the variable again. [Setting the environment variable](https://cloud.google.com/docs/authentication/getting-started#setting_the_environment_variable).
 
 Example
 -------
-Usage examples can be found at [Tests-folder](/src/test/robotframework/acceptance) for local usage. Remote usage is similar, just importing library with Remote library.
+
+*** Test Cases ***
+
+Upload File To GCP Storage Bucket 
+    Upload File To Storage   bucket=<BucketName>   fileName=<FileName>    filePath=<PathDir/file.ext>
